@@ -1,0 +1,151 @@
+/* CSS Stylesheet */
+
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Defaults */
+
+html {
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+    color: rgb(20, 20, 20);
+}
+
+body {
+    margin: 0;
+}
+
+h1, h3, p {
+    margin: 0;
+    padding: 0;
+    line-height: 110%;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 2em;
+}
+
+p {
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+/* Structure */
+
+.wrapper {
+    text-align: center;
+}
+
+/* Navigation Bar */
+
+.nav {
+    height: 6vh;
+    text-align: right;
+    background-color: rgb(20, 20, 20);
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+.nav h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 16px;
+    left: 110px;
+}
+
+/* Header */
+
+.header {
+    height: 94vh;
+    background-image: url(/assets/img/Marquee\ 1-1-Camera.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header h1 {
+    margin-top: 0;
+    padding-top: 35vh;
+    text-align: center;
+    font-weight: 300;
+    line-height: 125px;
+}
+
+/* Main */
+
+.main {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+/* Portfolio */
+
+#chairs {
+    padding-top: 30vh;
+    height: 80vh;
+}
+
+#portfolio h3 {
+    padding: 15px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85vw;
+    margin: auto;
+    gap: 20px;
+}
+
+.flex .flex-box {
+    background-color: rgb(238, 240, 245);
+    border-radius: 7px;
+    flex: 1 0 30%;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 50vh;
+}
+
+model-viewer {
+    width: 100%;
+    height: 80%;
+}
+
+.flex .flex-box h3{
+    margin: 25px 10px 10px 10px;
+}
+
+.flex .flex-box .Hotspot{
+    border: 0px;
+    width: 30%;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.flex .flex-box .Hotspot .HotspotAnnotation{
+    color: white;
+
+}
+
+/* Footer */
+
+.footer p {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}

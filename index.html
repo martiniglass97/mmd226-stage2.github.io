@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nienkämper</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chair e-Commerce Website ">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper" id="top">
+
+        <div class="nav">
+            <a href="#top"><h1><b>Nienkämper</h1></a>
+        </div>
+
+
+        <div class="header" >
+            <h1><span style="background-color: rgba(0, 0, 0, 0.50);"> <b>Modernize your space</b><br>with timeless style.</span></h1>
+        </div>
+
+        <div class="main">
+            <section id="chairs">
+                <div class="flex">
+                    <!-- ----------------------Chair no. 1------------------------>
+                    <div class="flex-box">
+
+                        <model-viewer
+                        
+                        camera-controls touch-action="pan-y"
+                        skybox-image="assets\img\dancing_hall_1k.hdr" skybox-height="1.5m" shadow-intensity="2" max-camera-orbit="auto 90deg auto"
+                        
+                        id="reveal" loading="eager" camera-controls touch-action="pan-y" auto-rotate poster="assets\img\avona-poster.webp" 
+                        
+                        src="/assets/models/Avona.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.jpeg" shadow-intensity="1">
+                            
+                            <button class="Hotspot" slot="hotspot-1" data-position="-0.3499892525751096m 0.5685625971211122m 0.3139716210069834m" data-normal="0.9215103118426214m 0.38552642011656973m -0.046777393683456424m" data-visibility-attribute="visible">
+                                <div class="HotspotAnnotation">Provides superior relaxation and ergonomic support for your back</div>
+                            </button>
+                            <div class="progress-bar hide" slot="progress-bar">
+                                <div class="update-bar"></div>
+                            </div>
+                            
+                        </model-viewer>
+                        
+                        
+                        
+                        <h3>Avona</h3>
+                    </div> 
+
+                    <!--------------------------Chair no. 2--------------------------->
+                    <div class="flex-box">
+                        <model-viewer
+
+                            camera-controls touch-action="pan-y"
+                            skybox-image="assets\img\dancing_hall_1k.hdr" skybox-height="1.5m" shadow-intensity="2" max-camera-orbit="auto 90deg auto"
+                            
+                            id="reveal" loading="eager" camera-controls touch-action="pan-y" auto-rotate poster="assets\img\picard-poster.webp" 
+                        
+                            src="/assets/models/Picard.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1">
+                            
+                            <button class="Hotspot" slot="hotspot-1" data-position="0.13523809016357013m 0.6599241952640952m -0.12131953743137647m" data-normal="-0.7175527949395117m 0.2965872661273916m 0.630201539228186m" data-visibility-attribute="visible">
+                                <div class="HotspotAnnotation">Targeted support and enhance relaxation with precision</div>
+                            </button>
+                            <div class="progress-bar hide" slot="progress-bar">
+                                <div class="update-bar"></div>
+                            </div>
+                            
+                        </model-viewer>
+                        
+
+                        <h3>Picard</h3>
+
+                    </div>
+
+                    <!------------------------Chair entry no. 2-------------------------------->
+                    <div class="flex-box">
+                        <model-viewer
+
+                            camera-controls touch-action="pan-y"
+                            skybox-image="assets\img\dancing_hall_1k.hdr" skybox-height="1.5m" shadow-intensity="2" max-camera-orbit="auto 90deg auto"
+                            
+                            id="reveal" loading="eager" camera-controls touch-action="pan-y" auto-rotate poster="assets\img\poster-sitzplatz.webp" 
+                            
+                            src="/assets/models/Sitzplatz.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1">
+                            <button class="Hotspot" slot="hotspot-1" data-position="-0.4625137311394877m 0.41293916872046654m 0.20697065762138855m" data-normal="-0.9363532321421169m -0.011135852766771395m 0.3508826263013997m" data-visibility-attribute="visible">
+                                <div class="HotspotAnnotation">Built-in side storage compartments, seamlessly blending style with practicality </div>
+                            </button>
+                            <div class="progress-bar hide" slot="progress-bar">
+                                <div class="update-bar"></div>
+                            </div>
+                            
+                        </model-viewer>
+                        
+
+                        <h3>Sitzplatz</h3>
+                    </div>
+                </div>
+            </section>
+
+            <div class="footer">
+                <p>&copy;2024 Nienkämper</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
